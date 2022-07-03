@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="f1">Student Information</h1>
+    <form action="#">
+    First Name*  <input type ="text" name="Name" placeholder="First Char Capital" ><br><br>       
+    Sir Name*  <input type ="text" name="Name" placeholder="First Char Capital"><br><br>
+    Email*  <input type ="email" name="Name" placeholder=" Enter Valid Email"><br><br>         
+    Password*  <input type ="password" name="Name" placeholder=" Enter Valid Password"><br><br>       
+     Mobile No.* <input type ="tel" name="Name" placeholder="10 Degits Only" maxlength="10"><br><br> 
+     DOB*  <input type="date"><br><br>
+    Address* <textarea name="Name"></textarea><br><br>               
+    Pin code* <input type ="number" name="Name"><br><br> 
+    <Select name ="Sex">
+    <option value= "Select Sex">Select Sex</option>
+    <option value= "Female">Female</option>    
+    <option value= "Male">Male</option> 
+    <option value= "General">General</option>
+    </Select>
+    <br><br>      
+    Cast <input type ="radio" name="Cast" value="OBC">OBC
+     <input type ="radio" name="Cast" value="ST">ST
+     <input type ="radio" name="Cast" value="SC">SC
+     <br><br>
+     Degree<br>
+     <input type ="checkbox" name="check" value="BE">BE<br>
+     <input type ="checkbox" name="check" value="BA">BA<br>
+     <input type ="checkbox" name="check" value="BSE">BSE<br>
+     <input type ="checkbox" name="check" value="BCA">BCA<br>
+     <br><br>
+     College Name*<input type ="text" name="Name">
+     <br><br><br>
+     <input type ="checkbox">I agree to the terms and condition.<br><br>
+     <a href="https://7385929773.github.io/RecordForm/" 
+     <button type = "submit">Submit</button> </a>
+     <br><br><input type = "reset"  id = "reset" value = "reset">
+
+</form>
+</body>
+</html>
