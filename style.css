@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+    font-size: small;
+    margin:10px;
+    padding:10px;
+    align-self: auto;
+
+}
+button{
+    background-color:red;
+}
+#reset{
+    background-color:cornflowerblue;
+}
